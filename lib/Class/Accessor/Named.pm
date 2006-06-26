@@ -1,6 +1,6 @@
 package Class::Accessor::Named;
 
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 use warnings;
 use strict;
@@ -54,6 +54,12 @@ This module depends on L<Class::Accessor>, L<UNIVERSAL::require>, L<Hook::LexWra
 None reported.
 
 =head1 BUGS AND LIMITATIONS
+
+This module uses L<Hook::Lexwrap> to alter the behaviour of
+L<Class::Accessor> and L<Class::Accessor::Fast>. Due to the nature of
+L<Hook::LexWrap>, this B<will> skew your profiling a tiny bit. We could
+probably do a little more internals diving and eliminate the dependency
+and the deficiency. Patches welcome.
 
 
 Please report any bugs or feature requests to
