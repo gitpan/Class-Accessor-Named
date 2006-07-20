@@ -1,0 +1,44 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.54.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 732050d12e9e4003c68f0d622ecd7f612c028fe0 Changes
+SHA1 5601ce17644b19416fe155161b134d553f75e55a MANIFEST
+SHA1 f9c98e2cb34f19cafffef79aff98038648165448 META.yml
+SHA1 5d70b35fe8cf29ba611324665af5b15b2afe863b Makefile.PL
+SHA1 137f84b9c6b83828c20c7c8f0d0c2d0e5e5a337f README
+SHA1 e974f78178f53c88fb7e3f8d20f7df184d13e1d0 inc/Module/AutoInstall.pm
+SHA1 017bedfcba1e0c72b36301e6ef21b8712b84d175 inc/Module/Install.pm
+SHA1 bcfb15c6a158831c45b5100a7aa94e0f88fced9f inc/Module/Install/AutoInstall.pm
+SHA1 b1a70869c098ba602151631386fc510b5bfd3511 inc/Module/Install/Base.pm
+SHA1 dd7313db23119d49ae78593bfa576554fb5b0fd8 inc/Module/Install/Can.pm
+SHA1 7c3a5153a5574556d895f23e121a41e680da11c1 inc/Module/Install/Fetch.pm
+SHA1 2e9c012e58c778a4a83c5eaea20c3aed306ad0c5 inc/Module/Install/Include.pm
+SHA1 176d68fe7c07b6ab7cfe09093078b8127bbde786 inc/Module/Install/Makefile.pm
+SHA1 8b37b38215d14f922b3d5132ce33d11d21d531ba inc/Module/Install/Metadata.pm
+SHA1 7eb44b00058c44795038d7fa4c0c77470f20a7f8 inc/Module/Install/Win32.pm
+SHA1 6d05967a5e1680b5f118315aaa6b8a1e143d79d8 inc/Module/Install/WriteAll.pm
+SHA1 61eafa39b710712d9718635a87b2ecde522ec4be lib/Class/Accessor/Named.pm
+SHA1 341fe9de242df0ca268f7dad958a71d0cd46a7ea t/00.load.t
+SHA1 62e8550e1ed9992ebb999e208964b55478abcb9f t/01-dependencies.t
+SHA1 6da39b48ce64b584e4c3274bff96fc76ff484820 t/pod-coverage.t
+SHA1 0190346d7072d458c8a10a45c19f86db641dcc48 t/pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (Darwin)
+
+iD8DBQFEv/99Ei9d9xCOQEYRAlMRAJ4gxDlpIHpNzc5FPjxEk/jOSf22jQCeLi8O
+Sfw2NXEGEmqcjGRka8jAOm8=
+=hMKD
+-----END PGP SIGNATURE-----
